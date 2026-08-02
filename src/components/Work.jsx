@@ -33,7 +33,7 @@ export default function Work() {
                     {p.name}
                   </h3>
                   <p className="text-sm mb-3.5" style={{ color: colors.muted }}>
-                    <a href={p.desc}></a>
+                    <a href={p.desc}>{p.desc}</a>
                   </p>
                   <div className="flex flex-wrap gap-2">
                     {p.tags.map((t) => (
