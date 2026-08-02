@@ -22,7 +22,7 @@ export const services = [
 export const projects = [
   { name: "House Pricing Prediction | Final Year Project", desc: "https://im-29.github.io/House-Price-Prediction/", tags: ["HTML", "CSS", "JavaScript", "Python"], image: "/images/USER HOMEPAGE.jpg", from: "#2e1a52", to: "#1a0f2e" },
   { name: "Malaysian Telco Plans Comparison Dashboard", desc: "#", tags: ["Power BI"], image: "/images/Telco Dashboard.jpg", from: "#3a1030", to: "#160a1c" },
-  { name: "PISA 2018 School Environment Dashboard", desc: "#", tags: ["D3.js"], image: "/images/PISA.jpg", from: "#0f1e3a", to: "#160a1c" },
+  { name: "PISA 2018 School Environment Dashboard", desc: "https://im-29.github.io/PISA-2018-School-Environment-Dashboard/", tags: ["D3.js"], image: "/images/PISA.jpg", from: "#0f1e3a", to: "#160a1c" },
 ];
 
 export const experience = [
