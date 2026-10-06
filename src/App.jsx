@@ -7,7 +7,6 @@ import Services from "./components/Services";
 import Work from "./components/Work";
 import ExperienceEducation from "./components/ExperienceEducation";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -39,7 +38,6 @@ export default function App() {
         <Work />
         <ExperienceEducation />
         <Skills />
-        {/* <Testimonials /> */}
         <Blog />
         <Contact />
         <Footer />
