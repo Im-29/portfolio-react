@@ -1,16 +1,11 @@
 export const navLinks = [
   { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
   { label: "Work", href: "#work" },
+  { label: "Education/Experience", href: "#education" },
   { label: "Skills", href: "#skills" },
+  { label: "Certificates", href: "#blogPosts" },
   { label: "Contact", href: "#contact" },
-];
-
-export const stats = [
-  { num: "MS Word 2019 (Syllabus 6.0)", label: "ICDL Asia - 25 November 2024" },
-  { num: "MS Excel 2019 (Syllabus 6.0)", label: "ICDL Asia - 3 December 2024" },
-  { num: "MS Teams (Syllabus 1.0)", label: "ICDL Asia - 18 December 2024" },
-  { num: "MS PowerPoint 2019 (Syllabus 6.0)", label: "ICDL Asia - 21 April 2025" },
-  { num: "HCIA - AI V4.0 Course", label: "HUAWEI ICT Academy - 16 January 2026" },
 ];
 
 export const services = [
@@ -41,11 +36,6 @@ export const skills = [
   { name: "Python", pct: 90 },
   { name: "Excel", pct: 90 },
   { name: "Power BI", pct: 80 }
-];
-
-export const testimonials = [
-  { quote: "Alex shipped a redesign of our checkout flow that cut load time in half — and explained every tradeoff along the way.", initials: "JM", name: "Jordan Miles", role: "Product Lead, Northline Labs" },
-  { quote: "One of the few engineers who writes docs no one has to ask for. Our onboarding time dropped noticeably.", initials: "RP", name: "Riya Patel", role: "Eng Manager, Fieldstone Co." },
 ];
 
 export const blogPosts = [
