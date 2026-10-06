@@ -27,7 +27,7 @@ function TimelineColumn({ icon: Icon, title, items, delay }) {
 
 export default function ExperienceEducation() {
   return (
-    <section className="py-24" style={{ background: "rgba(139,92,246,0.03)" }}>
+    <section id="Education" className="py-24" style={{ background: "rgba(139,92,246,0.03)" }}>
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-14">
         <TimelineColumn icon={GraduationCap} title="Education" items={education} delay={100} bg-transparent />
         <TimelineColumn icon={Compass} title="Experience" items={experience} delay={0} />
