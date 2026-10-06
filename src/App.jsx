@@ -2,7 +2,6 @@ import React from "react";
 import { colors, fonts } from "./theme";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
-import Stats from "./components/Stats";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import ExperienceEducation from "./components/ExperienceEducation";
@@ -33,7 +32,6 @@ export default function App() {
       <div className="relative">
         <Nav />
         <Hero />
-        {/* <Stats /> */}
         <Services />
         <Work />
         <ExperienceEducation />
