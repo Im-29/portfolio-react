@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 
 export default function Services() {
   return (
-    <section id="about" className="py-24" style={{ background: "rgba(139,92,246,0.03)" }}>
+    <section id="services" className="py-24" style={{ background: "rgba(139,92,246,0.03)" }}>
       <div className="max-w-6xl mx-auto px-6">
         <Reveal className="max-w-lg mb-12">
           <div className="flex items-center gap-2 text-xs uppercase tracking-widest mb-4 text-pink-500" style={{ fontFamily: fonts.mono }}>
